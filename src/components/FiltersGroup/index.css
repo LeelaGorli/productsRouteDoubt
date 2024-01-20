@@ -1,0 +1,64 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.category-button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #64748b;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.category-heading {
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+.ratingImg {
+  height: 30px;
+  width: 90px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.up {
+  color: #64748b;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.button1 {
+  background-color: transparent;
+  border-width: 0px;
+  color: #64748b;
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.clear-button {
+  background-color: transparent;
+  border: #0967d2 solid 2px;
+  color: #0967d2;
+  padding: 10px;
+  border-radius: 5px;
+}
+.and-up{
+  color:blue
+}
+/* Write your CSS here */
